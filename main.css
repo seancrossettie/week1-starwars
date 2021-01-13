@@ -1,3 +1,45 @@
 body {
+  background-color: orange;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   background-color: orangered;
+  height: 40px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: content;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+li a:hover {
+  background-color: aqua;
+}
+
+.section-1 {
+  padding: 25 px;
+}
+
+
+.person-container {
+  display: flex;
+  flex-flow: row;
+  height: 400px;
+}
+
+.person img {
+  height: 500 px;
+  padding: 15px;
+  border-color: orangered;
+  border-style: dashed;
+  margin: 15px;
 }
